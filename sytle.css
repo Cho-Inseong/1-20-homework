@@ -53,3 +53,73 @@ a:hover {
     color: black;
 }
 /* 헤더영역 끝 */
+
+/* 콘테이너 시작 */
+#container {
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* 콘테이너 끝 */
+
+/* 슬라이드 시작 */
+[name="slide"] {
+    display: none;
+}
+
+.slidebox {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 90px;
+}
+
+.slidebox img {
+    max-width: 100%;
+}
+
+.slidebox .slidelist {
+    white-space: nowrap;
+    font-size: 0;
+    overflow: hidden;
+}
+
+.slidebox .slideitem {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    transition: all 0.35s;
+}
+
+.slidebox .slideitem {
+    animation: slideAnimation 8s infinite linear;
+}
+
+@keyframes slideAnimation {
+    
+    0%,
+    20%,
+    100% {
+        transform: translateX(0%);
+    }
+    
+    25%,
+    45% {
+        transform: translateX(-100%);
+    }
+    
+    50%,
+    70% {
+        transform: translateX(-200%);
+    }
+    
+    75%,
+    95% {
+        transform: translateX(-300%);
+    }
+}
+/* 슬라이드 끝*/
