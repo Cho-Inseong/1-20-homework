@@ -436,5 +436,19 @@ footer span {
 #logo {
     padding-top: 25px;
 }
-
 /* 푸터 영역 끝 */
+
+/* sub01페이지 시작 */
+.introduceh1 {
+    margin-top: 100px;
+}
+
+.textbox {
+    width: 46%;
+    margin-left: 30px;
+}
+
+.textbox span {
+    font-size: 20px;
+}
+/* sub01페이지 끝 */
