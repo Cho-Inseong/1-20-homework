@@ -416,3 +416,25 @@ a:hover {
 }
 /* 모달 영역 끝 */
 /* 콘테이너 끝 */
+
+/* 푸터 영역 시작 */
+footer {
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+    height: 100px;
+    position: relative;
+    top: 100%;
+}
+
+footer span {
+    color: white;
+    text-align: center;
+    font-size: 13px;
+}
+
+#logo {
+    padding-top: 25px;
+}
+
+/* 푸터 영역 끝 */
