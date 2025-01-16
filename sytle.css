@@ -123,3 +123,31 @@ a:hover {
     }
 }
 /* 슬라이드 끝*/
+
+/* 인포메이션 영역 시작*/
+.informationh1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+.informationimg {
+    width: 400px;
+    height: 300px;
+}
+
+.informationimgspan {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.informationimgspan p {
+    padding-top: 10px;
+    padding-left: 10px;
+    font-weight: 800;
+}
+
+/* 인포메이션 영역 끝 */
