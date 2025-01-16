@@ -1,0 +1,13 @@
+[비주얼 영역]
+
+(텍스트1)
+No limits amazing skills baseball park!
+
+(텍스트2)
+스킬스 베이스볼 파크에 오신것을 환영합니다.
+
+(텍스트3)
+New Champion, New Challenge, Skills Baseball Park
+
+(텍스트4)
+스킬스베이스볼 파크를 응원해주시는 모든 분께 감사드립니다.
