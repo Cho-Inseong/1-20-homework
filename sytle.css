@@ -151,3 +151,64 @@ a:hover {
 }
 
 /* 인포메이션 영역 끝 */
+
+/* 금일 게임 현황 시작 */
+.rmadlfh1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    width: 100%;
+    
+}
+
+.rmadlfday {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.today_game {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    height: 100px;
+    padding-left: 60px;
+    /* background-color: aqua; */
+}
+
+.today_game span {
+    font-size: 100px;
+}
+
+.span5 {
+    padding-right: 90px;
+    border-radius: 10%;
+}
+
+.span5:hover {
+    color: #007bff;
+}
+
+.span4 {
+    padding-left: 90px;
+}
+
+.span4:hover {
+    color: orange;
+}
+
+.teamweb {
+    width: 100px;
+    height: 100px;
+    padding-left: 150px;
+    
+}
+
+.teamweb2 {
+    width: 150px;
+    height: 100px;
+    padding-right: 150px;
+}
+/* 금일 게임 현황 끝 */
