@@ -212,3 +212,34 @@ a:hover {
     padding-right: 150px;
 }
 /* 금일 게임 현황 끝 */
+
+/* 게임 스케쥴 영역 시작 */
+.game_table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.game_table tr,
+.game_table td,
+.game_table th {
+    border: 1px solid black;
+    font-size: 24px;
+    padding: 20px;
+}
+
+.game_table tr,
+.game_table td {
+    padding-top: 80px;
+    text-align: end;
+}
+
+#game_table_tr {
+    text-align: center;
+}
+
+#today {
+    color: red;
+}
+
+/* 게임 스케쥴 영역 끝 */
