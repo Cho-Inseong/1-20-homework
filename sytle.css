@@ -241,5 +241,131 @@ a:hover {
 #today {
     color: red;
 }
-
 /* 게임 스케쥴 영역 끝 */
+
+/* 랭킹 영역 시작 */
+.menu {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.menu:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.menu>li {
+    float: left;
+    margin-right: 5px;
+}
+
+.menu>li>a {
+    display: block;
+    padding: 0 15px;
+    background: #333;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+}
+
+.menu>li:hover .depth_1 {
+    display: block;
+}
+
+.menu .depth_1 {
+    display: none;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.menu .depth_1 a {
+    display: block;
+    padding: 5px;
+    background: #666;
+    color: #fff;
+}
+
+.rankall {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.nightpitcher,
+.nighthitter,
+.weekendpitcher,
+.weekendhitter,
+.dawnpitcher,
+.dawnhitter {
+    text-align: center;
+}
+
+#nightpitcher,
+#nighthitter,
+#weekendpitcher,
+#weekendhitter,
+#dawnpitcher,
+#dawnhitter {
+    display: none;
+}
+
+#nightpitcher:target,
+#nighthitter:target,
+#weekendpitcher:target,
+#weekendhitter:target,
+#dawnpitcher:target,
+#dawnhitter:target {
+    display: block;
+}
+/* 악코디언 시작 */
+.rankmenu {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.rankmenu:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.rankmenu>li {
+    float: left;
+    margin-right: 5px;
+}
+
+.rankmenu>li>a {
+    text-align: center;
+    display: block;
+    padding: 0 15px;
+    background: #333;
+    height: 40px;
+    width: 1000px;
+    line-height: 40px;
+    color: #fff;
+}
+
+.rankmenu>li:hover .depth_1 {
+    display: block;
+}
+
+.rankmenu .depth_1 {
+    display: none;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.rankmenu .depth_1 a {
+    display: block;
+    padding: 5px;
+    background: #666;
+    color: #fff;
+}
+/* 악코디언 끝 */
+/* 랭킹 영역 끝 */
