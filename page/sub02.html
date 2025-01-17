@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>visitors</title>
+    <link rel="stylesheet" href="../선수제공파일/bootstrap-5.2.0-dist/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="../sytle.css">
+</head>
+<body>
+    <header>
+        <div>
+            <div class="headerdis">
+                <img src="../img/logo.png" alt="" class="logo">
+                <ul class="nav_ul">
+                    <li class="headerli"><a href="./sub01.html">information</a></li>
+                    <li class="headerli"><a href="./sub02.html">statistics</a></li>
+                    <li class="headerli"><a href="reservation">reservation</a></li>
+                    <li class="headerli"><a href="goods">goods</a></li>
+                </ul>
+                <ul class="login_ul">
+                    <li class="headerli"><a href="">로그인</a></li>
+                    <li class="headerli"><a href="">회원가입</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main id="container">
+        <div class="container mt-5" id="tlqkffusdl">
+            <div id="controls" class="mb-3">
+              <select id="leagueSelect" class="custom-select mr-2">
+                <!-- JavaScript를 통해 채워질 예정 -->
+              </select>
+              <select id="daySelect" class="custom-select mr-2">
+                <!-- 요일 선택 -->
+              </select>
+              <select id="chartOrientation" class="custom-select mr-2">
+                <option value="vertical">세로로 보기</option>
+                <option value="horizontal">가로로 보기</option>
+              </select>
+            </div>
+            <div id="chartArea">
+              <!-- 차트 영역 -->
+            </div>
+            <table id="visitorTable" class="table">
+              <!-- JavaScript를 통해 채워질 예정 -->
+            </table>
+          </div>
+    </main>
+    <footer>
+        <img src="../img/logo.png" alt="" class="logo" id="logo">
+        <span>
+            [Copyright]<br>
+            Copyrightⓒ Skills baseball park. All rights reserved.<br>
+            Call: 142-3677<br>
+            Email: help@skillsbaseballpark.com<br>
+            Address: (12345) 서울특별서 중구 중북로 71<br>
+        </span>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="../선수제공파일/bootstrap-5.2.0-dist/js/bootstrap.js"></script>
+    <script src="../script.js"></script>
+    <script>
+        $(document).ready(function () {
+          initBaseballParkChart();
+          goodsInit();
+        });
+      </script>
+</body>
+</html>
