@@ -478,4 +478,39 @@ footer span {
     transform: rotate(180deg);
     white-space: nowrap;
 }
+/* 굿즈 판매 */
+#goods {
+    width: 1320px;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#goods select {
+    width: auto;
+}
+
+#viewOptions label {
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+#bestGoodsList,
+#goodsList {
+    justify-content: center;
+    display: flex;
+}
+
+#bestGoodsList div,
+#goodsList div {
+    padding: 5px 10px;
+}
+
+#bestGoodsList div img,
+#goodsList div img {
+    width: 200px;
+    border-radius: 15px;
+}
+/* 굿즈 판매 끝 */
+
 /* sub02페이지 끝 */

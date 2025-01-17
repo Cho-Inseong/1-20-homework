@@ -46,6 +46,20 @@
               <!-- JavaScript를 통해 채워질 예정 -->
             </table>
           </div>
+          <!-- 굿즈 판매 -->
+          <div id="goods">
+            <h1>GOODS 판매</h1>
+            <div id="viewOptions">
+              <select name="sortFilter" id="sortFilter" class="custom-select mr-1" onchange="updateGoodsList(this)">
+                <option value="priceDesc">가격 내림차순</option>
+                <option value="priceAsc">가격 오름차순</option>
+                <option value="sortDesc">판매량 내림차순</option>
+                <option value="sortAsc">판매량 오름차순</option>
+              </select>
+            </div>
+            <div id="bestGoodsList"></div>
+            <div id="goodsList"></div>
+          </div>
     </main>
     <footer>
         <img src="../img/logo.png" alt="" class="logo" id="logo">
